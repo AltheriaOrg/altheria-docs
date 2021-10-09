@@ -6,7 +6,7 @@ module.exports = {
   title: 'Altheria Documentation',
   tagline: 'The go-to place for the documentation of all Altheria products',
   url: 'https://altheriaorg.github.io',
-  baseUrl: '/altheria-docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
