@@ -11,7 +11,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'AltheriaOrg', // Usually your GitHub org/user name.
-  projectName: 'altheriaorg.github.io', // Usually your repo name.
+  projectName: 'altheria-docs', // Usually your repo name.
   trailingSlash: false,
   themeConfig: {
     navbar: {
