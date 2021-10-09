@@ -5,13 +5,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Altheria Documentation',
   tagline: 'The go-to place for documentation of all Altheria products',
-  url: 'https://docs.altheria.com',
-  baseUrl: '/',
+  url: 'https://altheriaorg.github.io',
+  baseUrl: 'https://github.com/altheriaorg/altheria-docs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Altheria', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'AltheriaOrg', // Usually your GitHub org/user name.
+  projectName: 'altheriaorg.github.io', // Usually your repo name.
+  trailingSlash: false,
   themeConfig: {
     navbar: {
       title: 'Altheria Docs',
