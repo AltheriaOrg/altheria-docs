@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Altheria Documentation',
-  tagline: 'The go-to place for documentation of all Altheria products',
+  tagline: 'The go-to place for the documentation of all Altheria products',
   url: 'https://altheriaorg.github.io',
   baseUrl: 'https://github.com/altheriaorg/altheria-docs',
   onBrokenLinks: 'throw',
