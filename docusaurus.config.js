@@ -17,7 +17,7 @@ module.exports = {
     navbar: {
       title: 'Altheria Docs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Altheria Logo',
         src: 'img/Logo_Monogram_Altheria_AltheBlue.png',
       },
       items: [
