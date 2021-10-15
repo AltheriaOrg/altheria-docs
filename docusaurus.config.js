@@ -3,6 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
+
   title: 'Altheria Documentation',
   tagline: 'L\'emplacement de référence pour la documentation des produits Altheria',
   url: 'https://altheriaorg.github.io',
@@ -13,6 +14,7 @@ module.exports = {
   organizationName: 'AltheriaOrg', // Usually your GitHub org/user name.
   projectName: 'altheria-docs', // Usually your repo name.
   trailingSlash: false,
+
   themeConfig: {
     navbar: {
       title: 'Altheria Docs',
@@ -27,6 +29,10 @@ module.exports = {
           position: 'left',
           label: 'Practice',
         },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
       ],
     },    
     prism: {
@@ -34,6 +40,12 @@ module.exports = {
       darkTheme: darkCodeTheme,
     },
   },
+
+  i18n: {
+    defaultLocale: 'fr',
+    locales:['fr', 'en'],
+  },
+
   presets: [
     [
       '@docusaurus/preset-classic',
