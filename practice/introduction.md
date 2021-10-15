@@ -5,6 +5,6 @@ slug : /
 
 # Introduction
 
-**Bienvenue dans la documentation de Logia/Practice Editor !**
+**Bienvenue dans la documentation de Practice !**
  
 Cette documentation est composée de plusieurs sections associées aux différentes fonctionnalités du logiciel. Bonne lecture !

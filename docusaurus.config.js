@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Altheria Documentation',
-  tagline: 'The go-to place for the documentation of all Altheria products',
+  tagline: 'L\'emplacement de référence pour la documentation des produits Altheria',
   url: 'https://altheriaorg.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -25,7 +25,7 @@ module.exports = {
           type: 'doc',
           docId: 'introduction',
           position: 'left',
-          label: 'Practice Editor',
+          label: 'Practice',
         },
       ],
     },    
@@ -39,8 +39,8 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          routeBasePath: 'practice_editor',
-          path: 'practice_editor',
+          routeBasePath: 'practice',
+          path: 'practice',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           
