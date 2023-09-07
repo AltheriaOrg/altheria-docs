@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Altheria Documentation',
-  tagline: 'L\'emplacement de référence pour la documentation des produits Altheria',
+  tagline: 'Le site de référence pour la documentation des produits Altheria',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -23,6 +23,8 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
+  trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
