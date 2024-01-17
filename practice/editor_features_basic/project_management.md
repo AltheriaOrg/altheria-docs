@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ### Choisir un environnement
 
-Logia/Practice inclut par défaut plusieurs environnements immersifs, afin de simplifier le premier démarrage.
+Practice inclut par défaut plusieurs environnements immersifs, afin de simplifier le premier démarrage.
 Choisissez celui qui convient le mieux à l'ambiance que vous souhaitez établir dans votre expérience.
 
 ![Project Selection](/img/proj_select_1.png)
@@ -29,32 +29,39 @@ Vous pouvez ici définir le nom de votre projet. Celui-ci disposera ensuite d'un
 ![Project Selection 4](/img/proj_select_4.png)
 
 
-### Choix du casque VR
-
-Le choix du casque n’a, pour l’instant, aucune incidence. Logia/Practice July: Avatar Update est actuellement compatible avec tous les casques VR reliés sur un PC, en appliquant une couche de compatibilité de base.
-
 ## Charger un projet existant
 
-Logia/Practice Editeur peut ouvrir toutes expériences .Logia de la même manière que Logia/Practice Reader peut ouvrir d’autre expérience.
+Practice Editor peut ouvrir toutes les expériences avec extension `.logia` de la même manière que Practice Reader. La différence est que, comme le nom l'indique, Practice Editor peut modifier les expériences et Practice Reader peut uniquement les réproduire.
 
 ### Localiser un projet existant
 
-Si vous ne trouvez pas votre projet dans votre dans le projet dans la partie “my project”, il vous faut localiser votre .Logia. Votre projet a peut-être été déplacé. 
-Cliquez sur le bouton “localize existing project” et selectionné le .Logia correspondant au projet que vous souhaitez charger.
+Si vous avez acquis une expérience `.logia`, vous devrez la *localiser* dans votre disque dur. Pour cela, appuyez le bouton "Locate Existing Projects" afin d'explorer votre système de stockage et trouver votre expérience `.logia`. Une fois l'expérience choisie, elle se trouvera dans la liste "My projects".
 
 ### Retirer un projet existant de la liste
 
-Si vous souhaitez cacher un projet affiché dans “my projects”, vous pouvez simplement cliquer sur les “...” situez en haut à droite de la carte du projet. Selectionnez ensuite “Hide” 
+Si vous souhaitez cacher un projet affiché dans "My projects", vous pouvez simplement cliquer sur les “...” situés dans la partie supérieure de la carte du projet. Ensuite, sélectionnez "Hide".
+
+:::note
+
+Cette opération va juste cacher le projet du logiciel Practice. Le fichier `.logia` se trouvera toujours sur le disque.
+
+:::
 
 ### Supprimer un projet existant
 
-Vous pouvez supprimer un projet depuis Logia/Practice en cliquant sur “...” et en selectionnant “Delete”. Cette opération n’est pas disponible sur Logia/Practice Reader et est irréversible. Cette opération détruira le lien du projet ainsi que le .logia lié à ce projet.
+Vous pouvez également supprimer un projet depuis Practice Editor en cliquant sur "..." et en selectionnant "Delete". Cette opération détruira le lien du projet ainsi que le `.logia` lié à ce projet.
+
+:::danger
+
+Cette opération est irréversible et le fichier sera supprimé du disque dur de façon permanente. Cette opération n'est pas disponible pour le Practice Reader. 
+
+:::
 
 ### Troubleshooting
 
 Si l’écran de loading ne se lance pas après avoir double cliquez dessus, cela peut être due à :
--	Le .Logia a été supprimé.
--	Le .Logia a été déplacé : vous pouvez unlink et ensuite relocaliser le projet.
--	Le .Logia vient d’une nouvelle version ou d’une version qui n’est pas compatible avec votre version d’éditeur.
--	Vous ne possedez pas les droits sur votre machine : Logia/Practice à besoin des droits d’écriture. Veuillez contacter votre administrateur. 
+-	Le fichier `.logia` a été supprimé.
+-	Le fichier `.logia` a été déplacé dans le disque: vous pouvez le cacher ("Hide") et ensuite [relocaliser le projet](project_management#retirer-un-projet-existant-de-la-liste).
+-	Le fichier `.logia` vient d’une nouvelle version ou d’une version qui n’est pas compatible avec votre version d’éditeur. Dans ce cas là, veuillez mettre à jour votre version de Practice.
+-	Vous ne possedez pas les droits sur votre machine: Practice à besoin des droits d’écriture. Veuillez contacter votre administrateur. 
 
