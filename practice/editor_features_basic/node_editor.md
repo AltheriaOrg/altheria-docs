@@ -2,59 +2,50 @@
 sidebar_position: 3
 ---
 
-# Node Editor/Step Editor 
+# Step Flow 
 
-## Menu principal
-![Node Overview](/img/node_overview.png)
+![Step Overview](/img/node_overview.png)
 
-Cette fenêtre montre la logique des étapes dans l'expérience. Chaque Step/Node est representé par un Node.
+Cette fenêtre montre la logique des étapes dans l'expérience. Chaque Step est representé par un cette figure:
+
+![Step Detailed](/img/node_detailed_1.png)
 
 Pour se déplacer dans cette vue, cliquez de manière enfoncée et déplacez la souris.
 Pour zoomer et dézoomer sur les Nodes, utilisez la molette de la souris. 
 
+Chaque Step est composé de plusieurs parties.
 
-![Node Detailed](/img/node_detailed_1.png)
+![Step Detailed 2](/img/node_detailed_2.png)
 
-Chaque Step/Node est composé de plusieurs parties.
+## Condition Group
 
-![Node Detailed 2](/img/node_detailed_2.png)
+Un *Condition Group* est un ensemble de *Conditions*. Chaque *Condition* est appliqué sur un objet sur la scène. Toutes les conditions dans un groupe doivent être réalisées afin de faire la transition vers le Step rélié à la sortie de ce groupe. Pour plus de détails sur les Conditions, visitez la section [Conditions &  Behaviours](conditions.md).
 
-## I. Nom de la Node/Step
+Cliquer sur le *-* à gauche du nom du groupe détruit ce *Condition Group*.
 
-Nom donné à cette Node.
-
-## II. Condition Group
-
-Il s'agit de l'ensemble des _Conditions_ et _Behaviours_ nécessaires à la sortie de cette Node. Les _Conditions_ et _Behaviours_ sont des éléments nécessitant une manipulation de la part de l’utilisateur en VR. 
-Lorsque toutes les manipulations d’un _Condition Group_ sont réalisées, l'expérience continue vers la Node reliée à la sortie de ce _Condition Group_.
-
-Cliquer sur le *-* à gauche du nom du groupe détruit ce _Condition Group_.
-
-## III.	Menu
+## Menu
 
 ![Menu](/img/node_menu.png)
  
-Cliquer sur *...* en haut à droite ouvre le menu. Vous pouvez accéder à différentes options :
--	_Settings_ : Ouvre les options de Node dans l’_Inspector_.
--	_Delete stage node_ : Supprime la Node actuelle.
--	_Disconnect in_ : Supprime le lien de connection entre la Node précédente et l’entrée de cette Node.
--	_Disconnect out_ : Supprime les liens de sortie vers les Nodes suivantes.
--	_Disconnect All_ : Supprime les liens d’entrée et de sortie.
+Vous pouvez accéder au menu si vous cliquer sur *...* en haut à droite du Step. Vous pouvez accéder à différentes options :
+-	*Settings*: Ouvre les options du Step dans l'*Inspector*.
+-	*Delete stage node*: Supprime le Step actuel.
+-	*Disconnect in*: Supprime le lien de connection entre le Step précédent et l’entrée de ce Step.
+-	*Disconnect out*: Supprime les liens de sortie vers les Steps suivants.
+-	*Disconnect all*: Supprime les liens d’entrée et de sortie.
 
-## IV. Entrée
+## Entrée
 
-L'entrée permet d'être reliée à la sortie de la Node précédente.
-Pour connecter deux Nodes entre elles, cliquez sur une sortie de la Node, puis sur l’entrée de la Node suivante. 
+L'entrée permet d'être reliée à la sortie du Step précédent.
+Pour connecter deux Steps entre eux, cliquez sur une sortie d'un *Condition Group* d'un Step précédent, puis sur l’entrée du Step suivant. 
 
-## V. Sortie(s)
+## Sortie(s)
 
-Les sorties de Node/Step sont des liens vers d’autre Node/Step si un _Condition Group_ est validé. Il y a une sortie par _Condition Group_. Une Node/Step ne peut pas posséder moins d’un _Condition Group_.
+Les sorties du Step sont des liens vers d’autres Steps si un *Condition Group* est validé. Il y a une sortie par *Condition Group*. Un Step ne peut pas posséder moins d’un *Condition Group*.
 
-##	VI. Add Condition Group
-Ajoute un _Condition Group_, ainsi que la sortie liée à celui-ci.
+##	Add Condition Group
+Ajoute un *Condition Group*, ainsi que la sortie liée à celui-ci.
 
 ![Condition](/img/node_condition.png)
 
-Le *+* en haut à droite de la fenêtre Node Editor permet de rajouter un Node/Step.
-Le *x* en dessous permet de recentrer la vue du Node Editor.
-
+À droite du Step Flow vous trouverez également les *Settings* ainsi que quelques boutons pour rajouter/supprimer un Step ainsi qu'un bouton pour recentrer la vue sur le Step Flow.
