@@ -12,19 +12,17 @@ La capture ci-dessous reprend la fenêtre de configuration du module. Cette fen�
 
 ![Avatar initialization features](/img/avatar_initfeatures.png)
   
-**I. Montre ou cache les Hazards sur l’UI de l'avatar**
 
-Sélectionner les icones vous montrera l’état actuel de l’avatar (voir II et III) avec ou sans l’état selectionné. Cela permet de se concentrer sur la répartition corporelle d'un ou de pluseurs Hazards spécifiques.
 
-**II. Selection des parties de l’avatar**
+**I. Selection des parties de l’avatar**
 
 Sélectionne une ou plusieurs parties du corps de l’avatar que vous souhaitez altérer.
 
-**III. Selection des parties des mains**
+**II. Selection des parties des mains**
 
 Sélectionne une ou plusieurs parties des mains de l’avatar que vous souhaitez altérer.
 
-**IV. Selection du Hazard**
+**III. Selection du Hazard**
 
 Applique l’état sélectionné sur les parties de l’avatar sélectionnées précédemment.
 
@@ -38,11 +36,11 @@ De gauche à droite, de haut en bas :
 
 Attention, les Hazards sont cohérents entre eux : casser un os ou couper un membre va limiter l'application d'autres Hazards sur ce dernier par la suite (ie. couper l’épaule gauche empêchera de voir les coupures sur la main gauche).
 
-**V. Reset l’avatar**
+**IV. Reset l’avatar**
 
 Soigne toutes les parties de l’avatar sans prendre en compte la sélection actuelle.
 
-**VI. Calcule la taille du joueur pour l’avatar**
+**V. Calcule la taille du joueur pour l’avatar**
 
 Une fois votre utilisateur en VR, vous pouvez ajuster la taille de son avatar en demandant à l’utilisateur de rester debout, regarder droit devant lui et appuyer sur ce bouton. L’option Avatar > Resize dans le Menu Statique permet d’effectuer la même action. Veuillez noter qu'à la différence des autres options, celle-ci doit être utilisée pendant que la VR Preview est activée.
 

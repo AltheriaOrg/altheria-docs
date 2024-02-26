@@ -18,7 +18,11 @@ En cliquant sur le *+* en haut à gauche, il est possible d'initialiser un impor
 
 Cette fenêtre ne s’ouvre qu'après avoir cliqué sur une base de donnée textuelle importée (_TextDB_). Ceci ouvre le fichier excel ou .csv et permet de lier des lignes de cellules avec des _text content_, par exemple dans un objet _Text_.
 
+![Sheet Data Viewer](/img/ImportCSV.png)
+
+
 ![Sheet Data Viewer](/img/UI_sheet.png)
+![Sheet Data Viewer](/img/UI_sheet2.png)
 
 Pour que le tableau .csv fonctionne, il faut préparer la première ligne (1) en commençant par la deuxième colonne (B), et y ajouter la langue qui s’affichera dans _Language_ sur Logia/Practice.
 Il est ainsi possible de lier un _text content_ en cliquant sur l’icône situé à gauche de la boîte de _text content_.
@@ -32,8 +36,8 @@ L’icône passe alors en mode de recherche.
 ![Text Link Actions](/img/UI_text_link_actions.png)
 ![Text Link 3](/img/UI_text_link_3.png)
 
-Il ne reste plus qu’à cliquer sur le bouton dans la colonne _Action_ au niveau de la ligne à lier à ce bloc de texte, sélectionner _Connect_. Le bloc de texte sera pré-rempli avec le texte correspondant au croisement de la ligne connecté, et à la langue sélectionnée dans _Language_.
-Vous pouvez aussi ajouter un object avec un composant _text content_ en cliquant sur _New Text Object_ dans la colonne _Action_.
+Il ne reste plus qu’à cliquer sur le bouton dans la colonne _Connect_ au niveau de la ligne à lier à ce bloc de texte. Le bloc de texte sera pré-rempli avec le texte correspondant au croisement de la ligne connecté, et à la langue sélectionnée dans _Language_.
+Vous pouvez aussi ajouter un object avec un composant _text content_ en cliquant sur _New Text Object_ dans la colonne _new_.
 
 ![Text Link Final](/img/UI_text_link_final.png)
 

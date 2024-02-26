@@ -4,13 +4,17 @@ sidebar_position: 4
 
 # Conditions et Interactions
 
-Le principe de base de Logia/Practice Editor est le suivant : chaque expérience est divisée en "Nodes", qui peuvent être vus comme les différentes étapes de la procédure que vous souhaitez simuler. Pour passer d'un Node à l'autre, des conditions doivents être remplies par l'utilisateur (exécuter une action, déplacer un objet, ...). Logia/Practice Editor met à votre disposition une large liste de conditions vous permettant de reproduire de nombreux process.
+Le principe de base de Logia/Practice Editor est le suivant : chaque expérience est divisée en "Steps", qui peuvent être vus comme les différentes étapes de la procédure que vous souhaitez simuler. Pour passer d'un Step à l'autre, des conditions doivents être remplies par l'utilisateur (exécuter une action, déplacer un objet, ...). Logia/Practice Editor met à votre disposition une large liste de conditions vous permettant de reproduire de nombreux process.
 
 Les conditions sont donc affectées : 
 * À un objet (devant être déplacé, tourné, ... pour remplir la condition)
-* À un Node (pour définir les critères de passage au Node suivant)
+* À un Step (pour définir les critères de passage au Node suivant)
 
-*Pour rappel : appuyer sur le “+” en bas de l’inspector quand un objet est sélectionné permet d'affecter une Condition à et objet.*
+Vous allez retrouver les paramètres de la condition dans l'inspector et retrouver également la petite icône de la condition selectionnée sous la colone *condition group* de votre Step dans le Step flow.
+
+*Pour rappel : Cliquer sur une icône d'un behavior permet d'affecter un behavior à et objet.* 
+
+**! ATTENTION ! Tous les behaviours ne sont pas des conditions, certains behaviours sont en quelques sortent des options appliquées sur l'objet pour le step selectionné !**
 
 ![Conditions : Select Condition Menu](/img/cond_selectmenu.png)
 
@@ -75,19 +79,13 @@ Après ajout de la condition à un objet, la section suivante s'affiche dans l'i
 **Minimum time** : Indique le temps de contact nécessaire pour valider la condition.
 
 
-### Scan
-
-Ajoute une condition de type Scan. **Cette condition sera implémentée lors d'une mise à jour ultérieure.**
-
-![Conditions : Scan](/img/cond_scan.png)
-
 ### Helper Tool
 
 Ajoute une condition de type Debug. **Cette condition sera implémentée lors d'une mise à jour ultérieure.**
 
 ![Conditions : Helper](/img/cond_helper.png)
 
-## Unit Applicator
+### Unit Applicator
 
 Le module **Unit Applicator** est utilisé pour simuler l'application ou le nettoyage de substances fluides. 
 
@@ -183,7 +181,7 @@ Après ajout de la condition à un objet, la section suivante s'affiche dans l'i
 **Is Target Group** : Les enfants de cette Applicator Target seront considérés comme target à remplir (ex: Emplacement de vis). A le même effet si vous appliquez un Applicator Target sur plusieurs objets séparément.
 
 
-## Smart Board
+### Smart Board
 
 Le Smart Board est un panneau qui permet de simuler des actions abstraites ou trop complexes à simuler en 3D. Cet objet peut être assimilé à un questionnaire.
 
@@ -211,8 +209,10 @@ La section suivante s'affiche dans l'inspecteur quand ledit objet est sélection
 
 *Toutes les boites de textes disponibles dans le Smart Board peuvent être liées à un TextDB*.
 
+![Conditions : Smart Baord](/img/cond_smartboard2.png)
 
-## Teleport
+
+### Teleport
 
 La Condition Teleport permet d'imposer à l'utilisateur de se déplacer à un endroit. Lorsque cette Condition est ajoutée à un objet, un marqueur (“Teleport Target") indiquant la destination du déplacement imposé sera créé et associé à l'objet.
 
@@ -225,7 +225,23 @@ Après ajout de la condition à un objet, la section suivante s'affiche dans l'i
 **Spot Marker Radius** : Indique à quelle distance l’utilisateur doit se trouver / s’éloigner du point en mètres. Il est conseillé de laisser une marge d’erreur pour l’utilisateur si celui doit se rapprocher.
 
 
-## Conditional Activator
+### Timer
+
+![Conditions : Conditional Activator](/img/cond_timer.png)
+
+Termine la step à la fin du temps défini.
+
+**Digit Display** : Projète une horloge numérique avec un décompte.
+
+**Time Left Visual** : Projète une horloge visuelle avec un décompte.
+
+**Time** : Temps qu'il reste avant le prochain step.
+
+## Autres behaviours:
+
+(pas des conditions)
+
+### Conditional Activator
 
 Cet objet propose d’afficher ou de cacher un objet en fonction du Score obtenu avec tous les Smart Board Item rencontrés jusqu’à présent dans l’expérience et possédant la propriété "Scored".
 
@@ -242,6 +258,8 @@ Après ajout de la condition à un objet, la section suivante s'affiche dans l'i
 **Max%** : Si le score se trouve en dessous de ce pourcentage la deuxième condition est validée. (Si perform inverse est off).
 
 *Min et max ne peuvent pas être le même chiffre, Min ne peut pas être plus grand que Max et Max ne peut pas être plus petit que Min*
+
+
 
 
 
