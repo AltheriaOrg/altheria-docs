@@ -6,7 +6,8 @@ sidebar_position: 2
 
 ## Menu principal
 
-![User Interface Overview](/img/UI_overview.png)
+![User Interface Overview](/img/UI_overview1.png)
+![User Interface Overview](/img/UI_overview1_mainmenu.png)
 
 #### Files
 
@@ -26,15 +27,14 @@ Permet d'ouvrir de nouveaux panneaux au sein de l'éditeur ainsi que réinitiali
 
 Ici vous trouverez ce guide même.
 
-#### Avatar
-
-Cet onglet vous permet de redimensionner l'avatar. Vous pouvez y accèder en cliquant le bouton "Avatar" sur la *Scene View*.
-
 #### Project Name
 
 Affiche le nom du projet.
 
+
 #### Layouts
+
+![User Interface Overview](/img/UI_overview1_workspace.png)
 
 Les layouts sont des configurations prédéfinies que nous vous proposons afin d'aider votre workflow de création d'expériences. 
 
@@ -44,22 +44,26 @@ Les layouts sont des configurations prédéfinies que nous vous proposons afin d
 
 #### Language
 
+![User Interface Overview](/img/UI_overview1_language.png)
+
+
 Permet de changer la langue de l'expérience à la volée. Pour de plus amples descriptions sur ces fonctionnalités, référez-vous à la section ["Gestion des langues"](../editor_features_advanced/language_management).
 
 ## Inspector
 
-![Inspector Panel Overview](/img/UI_overview_inspector.png)
+![Inspector Panel Overview](/img/UI_overview2.png)
 
 Par défaut, la partie droite de l'éditeur contient l'*Inspector*. Ce panneau fournit des informations sur l'objet actuellement sélectionné dans la *Sceneview* ou la *Hierarchy*.
 
-![Inspector Panel Detailed](/img/UI_detailed_inspector.png)
+![Inspector Panel Detailed](/img/UI_InspectorAll.png)
+
 
 L'*Inspector* se compose principalement de deux onglets qui définissent l'objet séléctionné: Le *State Content* et le *Step Behaviour*
 
 - *Name*: Le nom de l'objet.
 - *Tag*: Etiquette indiquant un comportement spécifique avec l'objet. Par exemple, déclarer un objet comme "Heavy" permet d'interagir avec l'avatar, et d'éventuellement le blesser.
 
-### State Content
+### Content
 
 #### VR Module (sur un objet "VR Module" uniquement)
 
@@ -79,7 +83,7 @@ Composant qui indique le matériel que l'objet utilisera à la fin de cette Step
 
 Indique si l'objet est actuellement actif dans l'étape actuelle.
 
-#### State
+#### State on ccurrent step
 
 L'état actuel de l'objet. Cet état de l'objet affecte directement l'avatar. Par exemple, si l'utilisateur touche un objet avec l'etat "Burning", cela se vera reflété sur la peau de l'avatar. 
 
@@ -95,31 +99,21 @@ Composant indiquant la présence et l'état de l'avatar au début de la Step. Vo
 
 Ajoute un composant de type "Condition". Pour plus d'informations, référez-vous à la section "Conditions".
 
-### Step Options
 
-![Step Options](/img/UI_node_options.png)
-
-Les options de Node sont ouvertes dans l'inspector lorsque les settings d'un Step sont selectionnés.
-
--	Nom de la Step.
--	*Free Teleportation*: Autorise, ou non, la téléportation dans le Step actuel.
--	*VR Module Position and Rotation*: Avec l'option "Stay", le personnage gardera la même position dans la Step suivante.
--	*Fade In* : Provoquera un fondu au noir lorsque le Step se finira.
--	*Last Step* : Annonce que ce Step mettra fin à la lecture du Reader (lorsque l'expérience sera lancée via Practice Reader).
--	*Type of Step* : Default indique que ce Step est un Step classique. FirstStep indique que le Step sera lancé en premier lors du lancement du Reader (il ne peut y avoir qu'une seule Step de ce type). LastStep indique que c'est la fin de l'expérience.
--	*Show Step Validation* : indique si une animation de validation à la fin de la Node apparaitra ou non. 
--	*Type of Step* : Default indique que ce Step est un Step classique. FirstStep indique que le Step sera lancé en premier lors du lancement du Reader (il ne peut y avoir qu'un seulStep de ce type). LastStep indique que c'est la fin de l'expérience.
--	*Show Step Validation* : indique si une animation de validation à la fin du Step apparaitra ou non. 
 
 
 ## VR Preview
+
+![VR Preview 2](/img/UI_overview6.png)
 
 Par défaut, la fenêtre VR Preview se situe toujours en bas à droite de l'éditeur. 
 Cliquer sur "Visual Test" lance immédiatement la VR. Vous pouvez également y voir une partie du champ de vision de l'utilisateur utilisant la VR.
 L'expérience sera alors lancée depuis le Step actuellement sélectionnée. 
 
-![VR Preview 1](/img/UI_vr_preview_1.png)
-![VR Preview 2](/img/UI_vr_preview_2.png)
+![VR Preview 1](/img/UI_vr_preview_2.png)
+![VR Preview 2](/img/UI_vr_preview_1.png)
+
+
 
 ## Scene View
 
@@ -144,14 +138,34 @@ Avec les gizmos en haut à droite, vous pouvez cliquer sur "Persp"/"Iso" afin de
 
 ![Gizmos](/img/UI_gizmos.png)
 
+Différents boutons à gauche de la scene view vous permettent d'activer certains racourcis.
+
+- *Move*:  Active "les flèches gizmo" pour permettre les mouvements de l'objet sélectionné.
+- *Rotate*: Active "les cercles gizmo" pour permettre la rotation de l'objet sélectionné.
+- *Scale*: Active "les flèches gizmo" pour permettre le changement de taille de l'objet sélectionné.
+- *Center view*: Centre la vue caméra sur l'objet selectionné.
+- *Snap on the ground*: Colle l'objet selectionné sur le sol le plus proche.
+
+![Gizmos](/img/UI_Sceneview_2.png)
+
+En bas à gauche vous pouvez trouver des boutons de racourcis pour changer de step ou en ajouter (petit "+").
+
+![Gizmos](/img/UI_Sceneview_1.png)
+
+En bas à droite, une série de petits butons sont des racourcis pour rajouter des behaviors directement sur les objets selectionnés. 
+Appuyez sur le petit "+" pour voir plus d'options.
+
+![Gizmos](/img/UI_Sceneview_3.png)
 
 ## Hierarchy
 
 La *Hierarchy* comporte une liste de tous les objets importés et utilisés dans votre projet. En sélectionnant un objet dans cette liste, les éléments lui ayant trait apparaissent dans la *Sceneview* et l'*Inspector*. 
 
-En appuyant sur le *+* en haut à droite vous pouvez également ajouter des éléments.
+![Hierarchy](/img/UI_hierarchy2.png)
 
-![Hierarchy](/img/UI_hierarchy.png)
+En appuyant sur le *+* en bas à droite vous pouvez également ajouter des éléments.
+
+![Hierarchy](/img/UI_hierarchy1.png)
 
 - *Add Empty* : Ajoute un objet vide, disposant uniquement d'un *Transform*. 
 - *Add Cube* : Ajoute un cube.
@@ -159,12 +173,15 @@ En appuyant sur le *+* en haut à droite vous pouvez également ajouter des él�
 - *Add Plane* : Ajoute un plan. 
 - *Add Cylinder* : Ajoute un cylindre.
 - *Add Capsule* : Ajoute une capsule. 
-- *Add Text* : Ajout un objet *Text* disposant d'un composant *Text*.
+- *Add Text* : Ajoute un objet *Text* disposant d'un composant *Text*.
 Le composant *Text* possède des propriétés pouvant être modifiées. Dans la partie *Content*, vous pouvez ajouter le texte que l'objet affichera dans l'expérience. 
+
+- *Add Waypoint Chain* : Ajoute un objet *waypoint chain* pour définir un chaine de point que l'on va pouvoir utiliser pour animer ou déplacer des objets.
+- *Add Particle Emitter* : Ajoute un objet *particle Emitter* pour créer des effets spéciaux et particules comme du feu par exemple.
 
 ### Text
 
-![Text](/img/UI_text.png)
+![Text](/img/UI_Text1.png)
 
  À gauche de *Content* se trouve le bouton permettant de lier une ligne de *TextDataBase*.
 
