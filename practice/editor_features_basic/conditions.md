@@ -237,9 +237,20 @@ Termine la step à la fin du temps défini.
 
 **Time** : Temps qu'il reste avant le prochain step.
 
+### Sensor
+
+Ce behaviours permet de sélectionner un élément réel de votre installation VR qui poura activer une condition 
+et passer au prochain Step.
+
+**Sensor selection** : Sélectionne un élément de votre intallation connectée qui activera la condition.
+
+![Conditions : animate](/img/UI_Sensors.JPG)
+
+
 ## Autres behaviours:
 
-(pas des conditions)
+Les behaviours ci-dessous n'active aucunes conditions.
+Ils servent principalement à changer l'états d'objects dans le step selectionné.
 
 ### Conditional Activator
 
@@ -259,8 +270,56 @@ Après ajout de la condition à un objet, la section suivante s'affiche dans l'i
 
 *Min et max ne peuvent pas être le même chiffre, Min ne peut pas être plus grand que Max et Max ne peut pas être plus petit que Min*
 
+### Animate
+
+![Conditions : animate](/img/UI_Animate.JPG)
+
+**Mode**:   
+-*Spline* : Dans ce mode les object vont suivre le waypoint chain.  
+
+-*Nav* : Dans ce mode les object vont suivre le waypoint chain comme guide mais se deplacera sur le sol, évitant les obstacles jusqu'au point final.  
+
+**Waypoint chain**:     
+ Selectionnne le waypoint chain que l'objet va suivre.
+
+**Delay**:      
+Indiquer en seconde le délais désiré avant que l'animation se lance.
+
+**Easing**:     
+ Choisissez quel type d'animation vous désirez.
+
+**Measure**:  
+-*Speed* : Choisissez en m/s la rapidité avec laquelle l'objet se déplacera.   
+
+-*Time* : Choisissez en seconde la durée de l'animation. 
+
+**Start from position**:    
+-*Current* : L'animation commence avec la position de l'objet dans le step actif.   
+
+-*Waypoint* : L'animation commence avec la position de l'objet directement au premier point du Waypoint chain.
+
+**Starting Point**: 
+Selectionnez quel point du Waypoint sera le début de l'animation.
+
+**Path Type**: 
+-*Straight* : L'object suit le waypoint chain à l'identique.
+
+-*Rounded* : Courbe le waypoint chain pour rendre l'animation plus "courbée" quand l'object passe de points en points.
+
+**Loop Type**:  
+Choisissez si vous voulez que l'animation boucle et quel type de d'effet vous désirez.
+
+**Y offset**:   
+Permet d'ajouter un décalage en hauteur pour l'animation de l'objet.
+
+### Actuator
+
+L'actuators permet dans changer l'état de composants réels de votre intallation VR. 
+Comme la couleur de vos lampes.
 
 
-
-
+![Conditions : Actuators](/img/UI_Actuators.JPG)    
+*Avec les options ci-dessus, lorsque le trainee atteindra ce Step l'actuators modifiera la couleur
+de votre lampe connecté en vert. Cela peut permettre par exemple d'indiquer au Trainer qu'il a réussi une
+étape.*
 

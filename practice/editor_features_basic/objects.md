@@ -26,9 +26,17 @@ Il est conseillé de le garder afin de permettre une lisibilité à tout moment.
 
 ### Waypoint chain
 
+Un Waypoint chain permet de créer une série de points lié entre eux et formant un chemin. 
+Ce chemin peut être utilisé pour guider des objects avec le behavior animate.
+
+Utilisez le raccourcis "P" pour ajouter des points rapidement lorsque le Waypoint chain est sélectionné.
+
 ![Particle](/img/UI_Waypoint.JPG)
+![Particle](/img/UI_Waypoint2.gif)
 
 ### Particle Emitter
+
+En important un Particle Emitter vous pouvez créer des effets comme de la fumée ou des feux et autres.
 
 ![Particle](/img/UI_Praticle.JPG)
 
