@@ -8,6 +8,23 @@ Nous pouvons donc importer différents élements à notre projet depuis la hiera
 
 ![Hierarchy](/img/UI_hierarchy1.png) 
 
+### Basic Shapes
+
+Vous pouvez importez plusieurs type de forme standard, souvent utilisée dans les logiciels 3D pour esquisser rapidement
+des idées.
+
+![Particle](/img/Shapes.JPG)
+
+### Empty 
+
+
+
+Si vous importez un Empty object, représenté par un cercle, vous pouvez l'utiliser pour certain behaviors 
+qui ne sont pas disponnibles sur des mesh objects. (comme les formes ci-dessus)
+En effet si vous voulez créer un Smartboard, un Timer ou un endroit ou vous téléporter vous aurez besoin d'un empty object.
+
+![Particle](/img/Empty_Object.JPG)
+
 ### Text
 
 ![Text](/img/UI_Text1.png)
@@ -54,3 +71,4 @@ En important un Particle Emitter vous pouvez créer des effets comme de la fumé
 - *Origin Size*: permet de sélectionner la taille de la forme d'origine.
 - *Looping*: permet de sélectionner si le particule Emitter boucle ou non.
 - *Pre-Simulate*: permet de sélectionner si le particule Emitter est déja simulé en entrant un step ou si la simulation débuteras en entrant un step.
+
