@@ -239,18 +239,18 @@ Termine la step à la fin du temps défini.
 
 ### Sensor
 
-Ce behaviours permet de sélectionner un élément réel de votre installation VR qui poura activer une condition 
+Ce behaviours permet de sélectionner un élément réel de votre installation VR qui pourra activer une condition 
 et passer au prochain Step.
 
-**Sensor selection** : Sélectionne un élément de votre intallation connectée qui activera la condition.
+**Sensor selection** : Sélectionne un élément de votre installation connectée qui activera la condition.
 
 ![Conditions : animate](/img/UI_Sensors.JPG)
 
 
 ## Autres behaviours:
 
-Les behaviours ci-dessous n'active aucunes conditions.
-Ils servent principalement à changer l'états d'objects dans le step selectionné.
+Les behaviours ci-dessous n'activent aucunes conditions.
+Ils servent principalement à changer l'état d'objects dans le step sélectionné.
 
 ### Conditional Activator
 
@@ -299,7 +299,7 @@ Indiquer en seconde le délais désiré avant que l'animation se lance.
 -*Waypoint* : L'animation commence avec la position de l'objet directement au premier point du Waypoint chain.
 
 **Starting Point**: 
-Selectionnez quel point du Waypoint sera le début de l'animation.
+Sélectionnez quel point du Waypoint sera le début de l'animation.
 
 **Path Type**: 
 -*Straight* : L'object suit le waypoint chain à l'identique.
@@ -307,19 +307,19 @@ Selectionnez quel point du Waypoint sera le début de l'animation.
 -*Rounded* : Courbe le waypoint chain pour rendre l'animation plus "courbée" quand l'object passe de points en points.
 
 **Loop Type**:  
-Choisissez si vous voulez que l'animation boucle et quel type de d'effet vous désirez.
+Choisissez si vous voulez que l'animation boucle et quel type d'effet vous désirez.
 
 **Y offset**:   
 Permet d'ajouter un décalage en hauteur pour l'animation de l'objet.
 
 ### Actuator
 
-L'actuators permet dans changer l'état de composants réels de votre intallation VR. 
+L'actuators permet de changer l'état de composants réels de votre installation VR. 
 Comme la couleur de vos lampes.
 
 
 ![Conditions : Actuators](/img/UI_Actuators.JPG)    
 *Avec les options ci-dessus, lorsque le trainee atteindra ce Step l'actuators modifiera la couleur
-de votre lampe connecté en vert. Cela peut permettre par exemple d'indiquer au Trainer qu'il a réussi une
+de votre lampe connectée en vert. Cela peut permettre par exemple d'indiquer au Trainer qu'il a réussi une
 étape.*
 

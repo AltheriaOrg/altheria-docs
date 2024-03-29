@@ -19,9 +19,9 @@ des idées.
 
 
 
-Si vous importez un Empty object, représenté par un cercle, vous pouvez l'utiliser pour certain behaviors 
-qui ne sont pas disponnibles sur des mesh objects. (comme les formes ci-dessus)
-En effet si vous voulez créer un Smartboard, un Timer ou un endroit ou vous téléporter vous aurez besoin d'un empty object.
+Si vous importez un Empty object, représenté par un cercle, vous pouvez l'utiliser pour certains behaviors 
+qui ne sont pas disponibles sur des mesh objects. (comme les formes ci-dessus)
+En effet, si vous voulez créer un Smartboard, un Timer ou un endroit ou vous téléporter, vous aurez besoin d'un empty object.
 
 ![Particle](/img/Empty_Object.JPG)
 
@@ -43,17 +43,17 @@ Il est conseillé de le garder afin de permettre une lisibilité à tout moment.
 
 ### Waypoint chain
 
-Un Waypoint chain permet de créer une série de points lié entre eux et formant un chemin. 
+Un Waypoint chain permet de créer une série de points liés entre eux et formant un chemin. 
 Ce chemin peut être utilisé pour guider des objects avec le behavior animate.
 
-Utilisez le raccourcis "P" pour ajouter des points rapidement lorsque le Waypoint chain est sélectionné.
+Utilisez le raccourci "P" pour ajouter des points rapidement lorsque le Waypoint chain est sélectionné.
 
 ![Particle](/img/UI_Waypoint.JPG)
 ![Particle](/img/UI_Waypoint2.gif)
 
 ### Particle Emitter
 
-En important un Particle Emitter vous pouvez créer des effets comme de la fumée ou des feux et autres.
+En important un Particle Emitter, vous pouvez créer des effets comme de la fumée ou des feux et autres.
 
 ![Particle](/img/UI_Praticle.JPG)
 
@@ -65,10 +65,10 @@ En important un Particle Emitter vous pouvez créer des effets comme de la fumé
 - *Particle Size*: permet de sélectionner la taille de la particule.
 - *Particle Lifetime*: permet de sélectionner la durée de vie d'une particule.
 - *Loop Duration*: permet de sélectionner la durée de vie du loop.
-- *Rate (per second)*: permet de sélectionner le nombre de particule générées par seconde.
-- *Starting Speed*: permet de sélectionner la vistesse d'une particule au début de sa création.
+- *Rate (per second)*: permet de sélectionner le nombre de particules générées par seconde.
+- *Starting Speed*: permet de sélectionner la vitesse d'une particule au début de sa création.
 - *Origin Shape*: permet de sélectionner la forme dans laquelle les particules seront créées.
 - *Origin Size*: permet de sélectionner la taille de la forme d'origine.
 - *Looping*: permet de sélectionner si le particule Emitter boucle ou non.
-- *Pre-Simulate*: permet de sélectionner si le particule Emitter est déja simulé en entrant un step ou si la simulation débuteras en entrant un step.
+- *Pre-Simulate*: permet de sélectionner si le particule Emitter est déjà simulé en entrant un step ou si la simulation débutera en entrant un step.
 
