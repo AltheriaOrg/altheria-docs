@@ -70,14 +70,10 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'introduction',
+            docId: 'index',
             position: 'left',
             label: 'Practice',
-          },
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
+          }
         ],
       },
       // footer: {
