@@ -10,18 +10,18 @@ Dit venster toont de logica van de stappen in de ervaring. Elke stap wordt weerg
 
 ![Gedetailleerde Stap](/img/node_detailed_1.png)
 
-Om in dit beeld te navigeren, klik en houd vast en beweeg de muis.
-Om in en uit te zoomen op de stappen, gebruik het muiswiel.
+Om in dit beeld te navigeren, klik en sleep met de muis.
+Gebruik het muiswiel om in en uit te zoomen.
 
 Elke stap bestaat uit meerdere delen.
 
 ![Gedetailleerde Stap 2](/img/node_detailed_2.png)
 
-### 1 Voorwaardengroep
+### 1 Conditie groep
 
-Een *Voorwaardengroep* is een verzameling van *Voorwaarden*. Elke *Voorwaarde* wordt toegepast op een object op het toneel. Alle voorwaarden in een groep moeten vervuld zijn om de overgang naar de stap die verbonden is met de uitgang van deze groep te maken. Voor meer details over Voorwaarden, bezoek de sectie [Voorwaarden & Gedragingen](conditions.md).
+Een *Condition group* is een verzameling van *Condities*. Elke *Voorwaarde* wordt toegepast op een object op het toneel. Alle condities in een groep moeten vervuld zijn om de overgang naar de stap die verbonden is met de uitgang van deze groep te maken. Voor meer details over Condities, bezoek de sectie [Condities & Gedragingen](conditions.md).
 
-Klikken op de *-* links van de groepsnaam vernietigt deze *Voorwaardengroep*.
+Klikken op de *-* links van de groepsnaam vernietigt deze *Conditie groep*.
 
 ### 2 Menu
 
@@ -37,14 +37,14 @@ Je kunt toegang krijgen tot het menu door op *...* te klikken in de rechterboven
 ### 3 Ingang
 
 De ingang laat toe om verbonden te worden met de uitgang van de vorige Stap.
-Om twee Stappen met elkaar te verbinden, klik je op een uitgang van een *Voorwaardengroep* van een vorige Stap, en vervolgens op de ingang van de volgende Stap.
+Om twee Stappen met elkaar te verbinden, klik je op een uitgang van een *Conditie sgroep* van een vorige Stap, en vervolgens op de ingang van de volgende Stap.
 
 ### 4 Uitgang(en)
 
-De uitgangen van de Stap zijn links naar andere Stappen als een *Voorwaardengroep* is gevalideerd. Er is een uitgang per *Voorwaardengroep*. Een Stap kan niet minder dan één *Voorwaardengroep* hebben.
+De uitgangen van de Stap zijn links naar andere Stappen als een *Conditiesgroep* is gevalideerd. Er is een uitgang per *Conditiesgroep*. Een Stap kan niet minder dan één *Conditiesgroep* hebben.
 
-### 5 Voeg Voorwaardengroep toe
-Voegt een *Voorwaardengroep* toe, evenals de uitgang die daaraan gekoppeld is.
+### 5 Voeg Conditiesgroep toe
+Voegt een *Conditiesgroep* toe, evenals de uitgang die daaraan gekoppeld is.
 
 ## Stappen toevoegen
 
@@ -66,4 +66,4 @@ De opties van de Stap worden geopend wanneer een Stap is geselecteerd.
 - *Fade In*: Zal een fade naar zwart veroorzaken wanneer de Stap eindigt.
 - *Fade out*: Zal een fade naar zwart veroorzaken wanneer de Stap begint.
 
-*Last Step*: Geeft aan dat deze Stap het einde van de afspeling via Practice Reader zal markeren (wanneer de ervaring wordt gestart
+*Last Step*: Geeft aan dat deze Stap de laatste stap van de VR ervaring is.

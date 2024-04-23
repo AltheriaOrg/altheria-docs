@@ -22,8 +22,7 @@ version complète se trouvant dans l’EULA signé par votre organisation.
 
 <img src="/img/install_4.png" alt="EULA" width="500"/>
 
-La création d’une icône sur le bureau placera celle-ci sur le bureau de tous les utilisateurs du
-poste de travail.
+U kan de locatie van de software aanpassen.
 
 <img src="/img/install_5.png" alt="EULA" width="500"/>
 

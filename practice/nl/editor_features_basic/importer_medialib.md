@@ -16,7 +16,7 @@ Door op de *+* linksboven te klikken, is het mogelijk om een import van een obje
 
 ## SheetData Viewer
 
-Dit venster opent alleen na het klikken op een geïmporteerde tekstuele databank (_TextDB_). Dit opent het Excel- of .csv-bestand en maakt het mogelijk om cellijnen te koppelen met _text content_, bijvoorbeeld in een _Text_-object.
+Dit venster opent alleen na het klikken op een geïmporteerde tekstuele databank (_TextDB_). Dit opent het Excel- of .csv-bestand en maakt het mogelijk om cellen te koppelen met _text content_, bijvoorbeeld in een _Text_-object.
 
 ![Sheet Data Viewer](/img/ImportCSV.png)
 
