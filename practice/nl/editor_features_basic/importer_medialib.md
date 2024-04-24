@@ -16,14 +16,17 @@ Door op de *+* linksboven te klikken, is het mogelijk om een import van een obje
 
 ## SheetData Viewer
 
-Dit venster opent alleen na het klikken op een geïmporteerde tekstuele databank (_TextDB_). Dit opent het Excel- of .csv-bestand en maakt het mogelijk om cellen te koppelen met _text content_, bijvoorbeeld in een _Text_-object.
+Met dit venster kan je uw geimporteerde text-databank bewerken. Dit opent het Excel- of .csv-bestand en maakt het mogelijk om cellen te koppelen met tekst in the VR treining zoals Smartboards.
 
 ![Sheet Data Viewer](/img/ImportCSV.png)
 
 ![Sheet Data Viewer](/img/UI_sheet.png)
 ![Sheet Data Viewer](/img/UI_sheet2.png)
 
-Om de .csv-tabel te laten werken, moet de eerste regel (1) vanaf de tweede kolom (B) worden voorbereid, en de taal die zal verschijnen in _Language_ op Logia/Practice daaraan toevoegen.
+Om de .csv of excel bestand te importeren met je er eerst voor zorgen dat het bestand de juist structuur heeft.
+
+Om de .csv-tabel te laten werken, moet de eerste regel (1) vanaf de tweede kolom (B) worden voorbereid. Hier plaats je de naam of afkorting van de taal in zal verschijnen in Practice.
+
 Het is mogelijk om een _text content_ te koppelen door te klikken op het icoon links van het _text content_ vak.
 Om een nieuwe taal toe te voegen, kunt u klikken op het icoon naast de cel van de eerste regel die de naam van de taal bevat. Het zal nu mogelijk zijn om de taal te selecteren via de _Language_ knop.
 

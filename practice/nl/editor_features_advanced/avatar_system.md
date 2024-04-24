@@ -4,11 +4,11 @@ sidebar_position: 2
 
 # Avatar en fysieke schade
 
-Deze module maakt het mogelijk om verwondingen of statuswijzigingen te simuleren die zijn gekoppeld aan fouten gemaakt door de operator. De module laat toe deze wijzigingen toe te wijzen aan verschillende delen van het virtuele lichaam van de gebruiker. Deze statuswijzigingen (brandwonden, breuken, ...) worden *Gevaren* genoemd in de onderstaande uitleg.
+Deze module maakt het mogelijk om verwondingen te simuleren waneer de gebruiker een fout maakt. Je kan zelf kiezen op welke lichaamsdelen deze verwondingen zullen worden toegepast. Deze statuswijzigingen (brandwonden, breuken, ...) worden *Hazards* genoemd in de onderstaande uitleg.
 
 ## Initialisatie
 
-De onderstaande afbeelding toont het configuratievenster van de module. Dit venster stelt u in staat om de toestand van de avatar aan het begin van een *Node* te definiëren.
+De onderstaande afbeelding toont het configuratievenster van de avatar module. Dit venster stelt u in staat om de avatar aan het begin van elke *Node* te definiëren.
 
 ![Avatar initialisatie functies](/img/avatar_initfeatures.png)
 
@@ -22,7 +22,7 @@ Selecteer een of meerdere delen van de handen van de avatar die u wilt wijzigen.
 
 **III. Selectie van het Gevaar**
 
-Past de geselecteerde toestand toe op de eerder geselecteerde delen van de avatar.
+Past de geselecteerde verwonding toe op de eerder geselecteerde delen van de avatar.
 
 Van links naar rechts, van boven naar beneden:
 * **Cyaan - Snede**: Snijdt een ledemaat/vingerkootje door.

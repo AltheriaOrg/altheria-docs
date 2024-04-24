@@ -13,7 +13,6 @@ Il est important de lier les textes dans les boites de textes à une textDB/.csv
 
 Si vous avez mis à jour votre .csv, vous pouvez appuyer sur la touche “Update All” pour mettre à jour les nouveaux textes.
 
-Changer de langue alors que la VR est lancée est fortement déconseillé. Les éléments tels que le Smart Board Item pouvant être bloqués. 
 
 
 
