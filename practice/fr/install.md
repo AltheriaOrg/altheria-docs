@@ -22,8 +22,7 @@ version complète se trouvant dans l’EULA signé par votre organisation.
 
 <img src="/img/install_4.png" alt="EULA" width="500"/>
 
-La création d’une icône sur le bureau placera celle-ci sur le bureau de tous les utilisateurs du
-poste de travail.
+U kan de locatie van de software aanpassen.
 
 <img src="/img/install_5.png" alt="EULA" width="500"/>
 
@@ -55,7 +54,7 @@ Practice est entièrement compatible avec le standard OpenXR[^1], vous pourrez d
 Afin de connecter le casque à Practice, il faudra utiliser un intermédiaire aussi appelé *runtime*. Il en existe deux principaux sur Windows: SteamVR[^2] et Oculus[^3], mais le choix de runtime dépend du casque à votre disposition. Nous vous conseillons d'utiliser le runtime Oculus pour les casques développés par Meta et SteamVR pour le reste.
 
 [^2]: [SteamVR](https://store.steampowered.com/steamvr)
-[^3]: [Oculus](https://store.steampowered.com/steamvr)
+[^3]: [Oculus](https://www.meta.com/be/quest/setup/)
 
 ### Oculus
 

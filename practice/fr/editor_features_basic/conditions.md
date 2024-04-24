@@ -220,7 +220,7 @@ Après ajout de la condition à un objet, la section suivante s'affiche dans l'i
 
 ![Conditions : Teleport](/img/cond_teleport.png)
 
-**Mode** : *To Point* va demander à l’utilisateur de s’approcher du marqueur. *Awa*y va demander de s’éloigner du marqueur.
+**Mode** : *To Point* va demander à l’utilisateur de s’approcher du marqueur. *Away* va demander de s’éloigner du marqueur.
 
 **Spot Marker Radius** : Indique à quelle distance l’utilisateur doit se trouver / s’éloigner du point en mètres. Il est conseillé de laisser une marge d’erreur pour l’utilisateur si celui doit se rapprocher.
 
