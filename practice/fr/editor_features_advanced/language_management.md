@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Gestion des langues
 
-Logia/Practice embarque un module vous permettant d'intégrer plusieurs versions de vos textes dans différentes langues pour pouvoir passer d'une langue à l'autre en un clic une fois l'expérience finalisée.
+Practice embarque un module vous permettant d'intégrer plusieurs versions de vos textes dans différentes langues pour pouvoir passer d'une langue à l'autre en un clic une fois l'expérience finalisée.
 
 ![language](/img/UI_overview1_language.png)
 
