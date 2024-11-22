@@ -3,7 +3,7 @@ sidebar_position: 8
 ---
 
 
-# Sauvegarder un projet VR
+# Save a project in VR
 
 Saving the file updates the .logia.
 This .logia is easily readable and free to access on the Reader version of Logia/Practice. Sending it to a third party has no particular restrictions.
